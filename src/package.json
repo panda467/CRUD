@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
 
-    "dev": "ts-node-dev --transpile-only ./back-end/server.ts",
+    "dev": "ts-node-dev --transpile-only back-end/server.ts",
     "typeorm": "ts-node-dev node_modules/.bin/typeorm"
 
   },
