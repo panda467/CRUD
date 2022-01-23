@@ -1,5 +1,4 @@
 # arquivos quenão vão subir
-node_modules
-.env
+
 recorte.text
-lib
+
