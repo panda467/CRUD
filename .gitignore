@@ -1,4 +1,8 @@
 # arquivos quenão vão subir
+lib
+
+
+node_modules
 
 recorte.text
 
