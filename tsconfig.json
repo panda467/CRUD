@@ -17,18 +17,23 @@
     /* Emit */               
     "sourceMap": true,                                                      
     "outDir": "./lib",                             
-    "removeComments": true,                                          
-    // "noEmitHelpers": true,                        
-    "noEmitOnError": true,                                  
-
+    "removeComments": true,   
+    
     /* Interop Constraints */        
     "esModuleInterop": true,                                          
-    "forceConsistentCasingInFileNames": true,        
+    "forceConsistentCasingInFileNames": true,    
+
 
     /* Type Checking */
     "strict": false,                                               
 
     /* Completeness */             
     "skipLibCheck": true                             
-  }
+  },
+    "include": [
+        "./src/*"
+    ],
+    "exclude": [
+        "./ormconfig.js"
+    ]
 }
